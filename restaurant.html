@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
@@ -16,14 +16,14 @@
   <!-- Beginning header -->
   <header>
     <!-- Beginning nav -->
-    <nav>
+    <nav aria-label="Breadcrumb">
       <h1><a href="./">Restaurant Reviews</a></h1>
-    </nav>
     <!-- Beginning breadcrumb -->
-    <ul id="breadcrumb" >
-      <li><a href="./">Home</a></li>
-    </ul>
+      <ul id="breadcrumb" >
+        <li><a href="./">Home</a></li>
+      </ul>
     <!-- End breadcrumb -->
+    </nav>
     <!-- End nav -->
   </header>
   <!-- End header -->
@@ -32,7 +32,7 @@
   <main id="maincontent">
     <!-- Beginning restaurant -->
     <section id="restaurant-container" tabindex="0" aria-label="Restaurant Information">
-      <h1 id="restaurant-name" tabindex="0"></h1>
+      <h2 id="restaurant-name" tabindex="0"></h2>
       <div class="info-left" tabindex="0">
         <img id="restaurant-img" aria-hidden="true">
         <p id="restaurant-cuisine"></p>
